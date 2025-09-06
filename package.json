@@ -4,8 +4,13 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "dev": "cross-env EXPO_NO_TELEMETRY=true expo start",
     "start": "cross-env EXPO_NO_TELEMETRY=true expo start",
+=======
+    "dev": "EXPO_NO_TELEMETRY=1 expo start",
+    "start": "EXPO_NO_TELEMETRY=1 expo start",
+>>>>>>> 5f403bd6ff06a0a419a87a69eff48bd172c4e06f
     "build:web": "expo export --platform web",
     "lint": "expo lint"
   },
